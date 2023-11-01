@@ -7,7 +7,7 @@ IF %%LastSave == %date% goto end
 
 :startSave
 echo %date% %time% Starte Sicherung der Emails > %backuppath%\backup.txt
-copy %outlookfile% %backuppath%\Emails\%date%geka.schmid@t-online.de.pst
+copy %outlookfile% %backuppath%\Emails\%date%mail@t-online.de.pst
 echo Kopieren der Emails abgeschlossen!
 echo %date% %time% Sicherung abgeschlossen > %backuppath%\backup.txt
 
