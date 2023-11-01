@@ -1,5 +1,5 @@
 echo Starte Sicherung der Emails
-set outlookfile=C:\Users\%username%\Documents\Outlook-Dateien\geka.schmid@t-online.de.pst
+set outlookfile=C:\Users\%username%\Documents\Outlook-Dateien\mail@t-online.de.pst
 set backuppath=C:\Users\%username%\OneDrive\Backup
 IF NOT EXIST %backuppath%\lastSave.txt goto startSave
 FOR /F "tokens=* delims=" %%LastSave in (%backuppath%\lastSave.txt) DO echo %%LastSave
