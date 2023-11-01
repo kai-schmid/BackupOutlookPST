@@ -19,4 +19,5 @@ echo Sicherung der Emails abgeschlossen!
 IF EXIST %backuppath%\lastSave.txt del %backuppath%\lastSave.txt
 echo %date% >> %backuppath%\lastSave.txt
 
+
 :end
